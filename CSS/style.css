@@ -1,3 +1,10 @@
+/*
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
 h1{
 	color:green;
 }
@@ -14,9 +21,35 @@ body{
 }
 
 .container{
-	width:200px;
-	margin:auto /* Even amount of margin at both sides */
+	width:96%;
+	margin:auto; /* Even amount of margin at both sides */
 }
 .box_1{
-	background-color:red;
+	background-color:#343942;
+	color:white;
+	
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+	/* Same as above*/
+	border: 5px red solid;
+	
+	padding:20px;
+	margin:20px 0px;
+}
+.box_1 a{
+	color:white;
+	font-style:italic;
+}
+.box_1 h2{
+	font-family:tahoma;
+	text-decoration:underline;
+	letter-spacing:0.05em;
+}
+
+.box_2{
+	border:3px dotted  #000000;
+	padding:20px;
+	margin:20px 0px;
 }
