@@ -8,4 +8,15 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:normal;
+	
+	line-height:1.3em
+	margin:0
+}
+
+.container{
+	width:200px;
+	margin:auto /* Even amount of margin at both sides */
+}
+.box_1{
+	background-color:red;
 }
