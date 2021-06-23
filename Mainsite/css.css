@@ -15,6 +15,9 @@ body{
 	padding:0;
 	position:relative;
 	overflow-x:hidden;
+	
+	background-image:url(./Images/Lines.png);
+	background-size:100% 100%;
 }
 
 main{
@@ -22,12 +25,6 @@ main{
 	padding-bottom:2em;
 
 	color:white;
-}
-
-.Background-Image{
-	background-image:url(./Images/Orbital.jpg);
-	background-size:cover;
-	height:83.3vh;
 }
 
 .container{
@@ -68,6 +65,53 @@ main{
 	color:black;
 	font-size:18px
 }
+.center-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 85vh;
+}
+.main-button{
+	border:white solid 1px;
+	padding: 4em 4em;
+	
+}
+.main-button a{
+	font-size:50px;
+	font-family:'Trebuchet MS', sans-serif;
+	text-decoration:none; 
+	color:white;
+}
+/*.horizontal-center{
+	position:relative;
+	top:50%;
+}
+.vertical-center{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:2em;
+	border:red solid 1px;
+}
+
+.main-button{
+	
+	left:30%;
+	
+	width:20em;
+	margin:0 auto;
+	padding:1em 0;
+	
+	text-align:center;
+	box-sizing:border-box;
+	
+	border:white solid 1px;
+	
+	font-size:25px;
+	font-family:'Trebuchet MS', sans-serif;
+}*/
 
 #footer{
 	width:100%;
@@ -75,7 +119,7 @@ main{
 	margin-top:-2em;
 	padding:0 5%;
 	
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	
 	background-color:black;
@@ -87,6 +131,9 @@ main{
 	overflow:hidden;
 	white-space:nowrap;
 }
+
+
+
 .footer_text{	
 	float:left;
 	width:90%;
